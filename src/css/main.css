@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bar {
+    @apply flex h-full flex-col gap-2;
+  }
+
+  .bar__graphic {
+    @apply relative mt-auto h-0 rounded bg-main-red transition-all duration-700 hover:bg-opacity-60;
+  }
+
+  .bar__number {
+    @apply absolute -top-9 left-2/4 -translate-x-2/4 scale-0 rounded bg-neutral-brown p-1 text-sm font-bold text-white transition-transform duration-300 group-hover/item:scale-100 xl:-top-12 xl:p-2 xl:text-base;
+  }
+
+  .bar__title {
+    @apply text-xs text-neutral-medium-brown xl:text-base;
+  }
+}
