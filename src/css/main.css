@@ -8,7 +8,7 @@
   }
 
   .bar__graphic {
-    @apply relative mt-auto h-0 rounded bg-main-red transition-all duration-700 hover:bg-opacity-60;
+    @apply relative mt-auto h-0 rounded bg-main-red transition-all duration-300 hover:bg-opacity-60;
   }
 
   .bar__number {
